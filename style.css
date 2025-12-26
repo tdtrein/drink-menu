@@ -33,8 +33,14 @@ body {
   padding: 1rem;
   width: 90%;
   max-width: 400px;
+  max-height: 85vh;        /* ⬅ prevents oversized modal */
+  overflow-y: auto;        /* ⬅ enables scrolling */
   border-radius: 12px;
   position: relative;
+
+  display: flex;           /* ⬅ for centering (next step) */
+  flex-direction: column;
+  align-items: center;
 }
 
 #modal-close {
@@ -49,8 +55,10 @@ body {
 
 #detail-image {
   max-width: 100%;
-  margin-top: 0.5rem;
+  max-height: 40vh;        /* ⬅ THIS is the key line */
+  object-fit: contain;
   border-radius: 10px;
+  margin-bottom: 0.75rem;
 }
 
 #detail-description {
@@ -66,4 +74,23 @@ body {
 .empty {
   display: none;
   font-style: italic;
+}
+
+.category {
+  cursor: pointer;
+  user-select: none;
+  margin-top: 1rem;
+}
+
+.category::after {
+  content: " ▼";
+  font-size: 0.8em;
+}
+
+.category-content.collapsed {
+  display: none;
+}
+
+.category-content {
+  display: none;
 }
