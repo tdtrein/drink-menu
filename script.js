@@ -24,28 +24,43 @@ document.addEventListener("DOMContentLoaded", () => {
     currentlyOpenDrink = null;
   }
 
-  fetch("drinks.json")
-    .then(response => response.json())
-    .then(data => {
-      for (const category in data) {
-        const h2 = document.createElement("h2");
-        h2.textContent = category;
-        menu.appendChild(h2);
+fetch("drinks.json")
+  .then(response => response.json())
+  .then(data => {
+    const menu = document.getElementById("menu");
 
-        data[category].forEach(drink => {
-          const div = document.createElement("div");
-          div.className = "drink";
-          div.textContent = drink.name;
+    for (const category in data) {
+      const categoryHeader = document.createElement("h2");
+      categoryHeader.textContent = category;
+      categoryHeader.classList.add("category");
 
-          div.addEventListener("click", () => {
-            showDrink(drink);
-          });
+      const categoryContainer = document.createElement("div");
+      categoryContainer.classList.add("category-content");
 
-          menu.appendChild(div);
+      categoryHeader.addEventListener("click", () => {
+        categoryContainer.classList.toggle("collapsed");
+      });
+
+      menu.appendChild(categoryHeader);
+      menu.appendChild(categoryContainer);
+
+      data[category].forEach(drink => {
+        const div = document.createElement("div");
+        div.className = "drink";
+        div.textContent = drink.name;
+
+        div.addEventListener("click", () => {
+          showDrink(drink);
         });
-      }
-    })
-    .catch(err => console.error("❌ JSON load error:", err));
+
+        categoryContainer.appendChild(div);
+      });
+    }
+  })
+  .catch(err => {
+    console.error("JSON load error:", err);
+  });
+
 
   function showDrink(drink) {
     const title = document.getElementById("detail-title");
@@ -103,5 +118,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
 
 
