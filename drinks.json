@@ -23,7 +23,7 @@
 
       {
         "name": "Fanta",
-        "image": "images/fanta.JPG"
+        "image": "images/Fanta.JPG"
     },
 
       {
@@ -49,7 +49,7 @@
     { 
     "name": "Gin tonic",
     "ingredients": ["Gin", "Tonic"],
-    "image": "images/gin-tonic.jpg",
+    "image": "images/Gin-tonic.png",
     "description":"Gin en tonic een highball-cocktail op basis van gin en tonic. Het recept stamt uit de Britse koloniale tijd als middel tegen malaria."
 },
     {
@@ -138,7 +138,7 @@
 
       {
         "name": "Marthe Blond",
-        "image": "images/martha-blond.jpg",
+        "image": "images/Martha-blond.jpg",
         "description":  "Blond speciaalbier, 8%"
     },
 
@@ -150,7 +150,7 @@
 
       {
         "name": "Chouffe IPA",
-        "image": "images/chouffe-ipa.jpg",
+        "image": "images/chouffe-IPA.jpg",
         "description":  "IPA, 9%"
     }
 
@@ -158,6 +158,7 @@
   ]
 
 }
+
 
 
 
