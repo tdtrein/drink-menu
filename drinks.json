@@ -1,0 +1,160 @@
+{
+ 
+"Frisdrank": [
+    {
+        "name": "Cola",
+        "image": "images/coca-cola.jpg"
+    },
+
+  {
+        "name": "Cola zero",
+        "image": "images/coca-cola-zero.jpg"
+    },
+
+      {
+        "name": "Ice Tea",
+        "image": "images/ice-tea.jpg"
+    }, 
+    
+    {
+        "name": "Fuze Tea",
+        "image": "images/fuze-tea.jpg"
+    },
+
+      {
+        "name": "Fanta",
+        "image": "images/fanta.jpg"
+    },
+
+      {
+        "name": "Schweppes Agrum",
+        "image": "images/schweppes-agrum.jpg"
+    },
+
+          {
+        "name": "Schweppes Mojito",
+        "image": "images/schweppes-mojito.jpg"
+    },
+
+      {
+        "name": "Tonic",
+        "image": "images/tonic.jpg"
+    }
+
+
+],
+
+
+   "Cocktails": [
+    { 
+    "name": "Gin tonic",
+    "ingredients": ["Gin", "Tonic"],
+    "image": "images/gin-tonic.jpg",
+    "description":"Gin en tonic een highball-cocktail op basis van gin en tonic. Het recept stamt uit de Britse koloniale tijd als middel tegen malaria."
+},
+    {
+    "name": "Moscow Mule",
+    "ingredients": ["Vodka", "Ginger beer", "limoensap"],
+    "image": "images/moscow-mule.jpg",
+    "description": "De Moscow Mule is een cocktail uit de longdrinkklasse. Hij bestaat uit wodka, gemberbier, limoen en munt en wordt geserveerd in een koperen mok. De drank werd populair in de jaren 50 toen wodka bekend geraakte in de Verenigde Staten."
+},
+{
+    "name": "Aperol Spritz",
+    "ingredients": ["aperol", "prosecco", "spuitwater"],
+    "image": "images/aperol.jpg"
+},
+{
+    "name": "zure mattencocktail",
+    "ingredients": ["roze gin", "roze limonade", "amaretto", "zure matten", "limoensap"],
+    "image": "images/zuremattencocktail.jpg"
+},
+{
+    "name": "Mojito",
+    "ingredients": ["witte rum", "Munt", "limoensap", "rietsuiker", "spuitwater"],
+    "image": "images/mojito.jpg"
+}
+  ],
+
+"Pils": [
+    {
+        "name": "Stella artois",
+        "image": "images/stella.jpg"
+    },
+
+  {
+        "name": "Desperados",
+        "image": "images/desperados.jpg"
+    }
+],
+
+  "Zware bieren": [
+    {
+        "name": "Triple D'Anvers",
+        "image": "images/triple-anvers.jpg",
+        "description":  "Blonde tripel, 8%"
+    },
+
+  {
+        "name": "Duvel",
+        "image": "images/duvel.jpg",
+        "description":  "Blond speciaalbier, 8,5%"
+    },
+
+      {
+        "name": "Duvel 6.66",
+        "image": "images/duvel-666.jpg",
+        "description":  "Blond speciaalbier, 6,66%"
+    },
+
+      {
+        "name": "Duvel Imperial Blond",
+        "image": "images/duvel-imperial-blond.jpg",
+        "description":  "Blond speciaalbier, 10%"
+    },
+
+  {
+        "name": "Cornet",
+        "image": "images/cornet.jpg",
+        "description":  "Blond speciaalbier, 8,5%"
+    },
+
+      {
+        "name": "Cornet Smoked",
+        "image": "images/cornet-smoked.jpg",
+        "description":  "Blond speciaalbier, 8,5%"
+    },
+
+      {
+        "name": "Lupulus",
+        "image": "images/lupulus.jpg",
+        "description":  "Blond speciaalbier, 8,5%"
+    },
+
+      {
+        "name": "Paix Dieu",
+        "image": "images/paix-dieu.jpg",
+        "description":  "Blonde tripel, 10%"
+    },
+
+      {
+        "name": "Marthe Blond",
+        "image": "images/martha-blond.jpg",
+        "description":  "Blond speciaalbier, 8%"
+    },
+
+      {
+        "name": "Chouffe Lite",
+        "image": "images/chouffe-lite.jpg",
+        "description":  "Blond speciaalbier, 4%"
+    },
+
+      {
+        "name": "Chouffe IPA",
+        "image": "images/chouffe-ipa.jpg",
+        "description":  "IPA, 9%"
+    }
+
+
+  ]
+
+}

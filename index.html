@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drinks Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍹 Drinks Menu</h1>
+<p>Klik op een drankje voor meer informatie</p>
+
+<div id="menu"></div>
+
+<hr>
+
+
+<script src="script.js"></script>
+
+<!-- Modal background -->
+<div id="modal" class="modal hidden">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+
+    <button id="modal-close">×</button>
+
+    <h2 id="detail-title"></h2>
+
+    <img id="detail-image" />
+
+    <p id="detail-description"></p>
+
+    <h3 id="ingredients-title">Ingrediënten</h3>
+    <ul id="detail-ingredients"></ul>
+
+    <p id="detail-empty" class="empty">
+      Geen extra info beschikbaar.
+    </p>
+
+  </div>
+</div>
+
+
+</body>
+</html>
