@@ -61,7 +61,7 @@
 {
     "name": "Aperol Spritz",
     "ingredients": ["aperol", "prosecco", "spuitwater"],
-    "image": "./Images/aperol.jpg"
+    "image": "./Images/aperol-spritz.jpg"
 },
 {
     "name": "zure mattencocktail",
@@ -154,10 +154,59 @@
         "description":  "IPA, 9%"
     }
 
+  ],
 
-  ]
+"Alcoholvrij": [
+    {
+        "name": "Stella artois 0.0",
+        "image": "Images/stella00.jpg"
+    },
 
+  {
+        "name": "Cristal 0.0",
+        "image": "Images/cristal00.jpg"
+    },
+
+   {
+        "name": "Gentse strop",
+        "image": "Images/gentse-strop-alcoholvrij.jpg"
+    },
+
+   {
+        "name": "Delirio",
+        "image": "Images/delirio.jpg"
+    },
+
+   {
+        "name": "liefmans 0.0",
+        "image": "Images/liefmans00.jpg"
+    },
+
+   {
+        "name": "Kasteelbier Rubus 0.0",
+        "image": "Images/kasteel-rubus00.jpg"
+    },
+
+  {
+        "name": "Bellini 0.0",
+        "image": "Images/bellini00.jpg"
+    },
+
+   {
+        "name": "Cava Alcoholvrij",
+    }
+
+],
+
+"Mocktails": [
+    {
+        "name": "Mojito",
+        "image": "Images/mojito.jpg"
+    },
+]
+ 
 }
+
 
 
 
