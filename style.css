@@ -94,3 +94,16 @@ body {
 .category-content {
   display: none;
 }
+
+/* Center modal content */
+.modal-content h2,
+.modal-content p,
+.modal-content ul {
+  text-align: center;
+}
+
+#detail-ingredients {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
