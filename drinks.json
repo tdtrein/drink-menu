@@ -18,12 +18,12 @@
     
     {
         "name": "Fuze Tea",
-        "image": "Images/fuze-tea.JPG"
+        "image": "images/fuze-tea.jpg"
     },
 
       {
         "name": "Fanta",
-        "image": "Images/fanta.jpg"
+        "image": "images/fanta.JPG"
     },
 
       {
@@ -158,6 +158,7 @@
   ]
 
 }
+
 
 
 
