@@ -3,7 +3,7 @@
 "Frisdrank": [
     {
         "name": "Cola",
-        "image": "Images/coca-cola.jpg"
+        "image": "./Images/coca-cola.jpg"
     },
 
   {
@@ -158,4 +158,5 @@
   ]
 
 }
+
 
