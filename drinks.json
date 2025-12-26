@@ -13,17 +13,17 @@
 
       {
         "name": "Ice Tea",
-        "image": "images/ice-tea.jpg"
+        "image": "../Images/ice-tea.jpg"
     }, 
     
     {
         "name": "Fuze Tea",
-        "image": "images/fuze-tea.jpg"
+        "image": "Images/fuze-tea.JPG"
     },
 
       {
         "name": "Fanta",
-        "image": "images/fanta.jpg"
+        "image": "Images/fanta.jpg"
     },
 
       {
@@ -158,5 +158,6 @@
   ]
 
 }
+
 
 
