@@ -38,7 +38,7 @@ fetch("drinks.json")
       categoryContainer.classList.add("category-content");
 
       categoryHeader.addEventListener("click", () => {
-        categoryContainer.classList.toggle("collapsed");
+        categoryContainer.classList.toggle("open");
       });
 
       menu.appendChild(categoryHeader);
@@ -118,6 +118,7 @@ fetch("drinks.json")
   }
 
 });
+
 
 
 
