@@ -13,27 +13,27 @@
 
       {
         "name": "Ice Tea",
-        "image": "../Images/ice-tea.jpg"
+        "image": "./Images/ice-tea.jpg"
     }, 
     
     {
         "name": "Fuze Tea",
-        "image": "images/fuze-tea.jpg"
+        "image": "./images/fuze-tea.jpg"
     },
 
       {
         "name": "Fanta",
-        "image": "images/Fanta.JPG"
+        "image": "./images/Fanta.JPG"
     },
 
       {
         "name": "Schweppes Agrum",
-        "image": "images/schweppes-agrum.jpg"
+        "image": "./images/schweppes-agrum.jpg"
     },
 
           {
         "name": "Schweppes Mojito",
-        "image": "images/schweppes-mojito.jpg"
+        "image": "./images/schweppes-mojito.jpg"
     },
 
       {
@@ -49,19 +49,19 @@
     { 
     "name": "Gin tonic",
     "ingredients": ["Gin", "Tonic"],
-    "image": "images/Gin-tonic.png",
+    "image": "./images/Gin-tonic.png",
     "description":"Gin en tonic een highball-cocktail op basis van gin en tonic. Het recept stamt uit de Britse koloniale tijd als middel tegen malaria."
 },
     {
     "name": "Moscow Mule",
     "ingredients": ["Vodka", "Ginger beer", "limoensap"],
-    "image": "images/moscow-mule.jpg",
+    "image": "./images/moscow-mule.jpg",
     "description": "De Moscow Mule is een cocktail uit de longdrinkklasse. Hij bestaat uit wodka, gemberbier, limoen en munt en wordt geserveerd in een koperen mok. De drank werd populair in de jaren 50 toen wodka bekend geraakte in de Verenigde Staten."
 },
 {
     "name": "Aperol Spritz",
     "ingredients": ["aperol", "prosecco", "spuitwater"],
-    "image": "images/aperol.jpg"
+    "image": "./images/aperol.jpg"
 },
 {
     "name": "zure mattencocktail",
@@ -158,6 +158,7 @@
   ]
 
 }
+
 
 
 
