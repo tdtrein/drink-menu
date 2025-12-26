@@ -23,7 +23,7 @@
 
       {
         "name": "Fanta",
-        "image": "./Images/Fanta.jpg"
+        "image": "./Images/fanta.jpg"
     },
 
       {
@@ -158,6 +158,7 @@
   ]
 
 }
+
 
 
 
