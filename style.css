@@ -80,21 +80,34 @@ body {
   cursor: pointer;
   user-select: none;
   margin-top: 1rem;
+  position: relative;
+  padding-right: 1.5rem;
 }
 
+/* Triangle */
 .category::after {
-  content: " ▼";
-  font-size: 0.8em;
+  content: "▶";
+  position: absolute;
+  right: 0;
+  transition: transform 0.25s ease;
 }
 
+
+/* Rotated when open */
+.category.open::after {
+  transform: rotate(90deg);
+}
+
+/* Collapsed state */
 .category-content.collapsed {
-  display: none;
+  max-height: 0;
 }
 
 .category-content {
-  display: none;
+  overflow: hidden;
+  max-height: 2000px; /* big enough for all drinks */
+  transition: max-height 0.35s ease;
 }
-
 .category-content.open {
   display: block;
 }
@@ -111,5 +124,6 @@ body {
   list-style-position: inside;
   padding-left: 0;
 }
+
 
 
