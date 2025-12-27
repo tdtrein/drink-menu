@@ -37,9 +37,11 @@ fetch("drinks.json")
       const categoryContainer = document.createElement("div");
       categoryContainer.classList.add("category-content");
 
-      categoryHeader.addEventListener("click", () => {
-        categoryContainer.classList.toggle("open");
-      });
+categoryHeader.addEventListener("click", () => {
+  categoryContainer.classList.toggle("collapsed");
+  categoryHeader.classList.toggle("open");
+});
+
 
       menu.appendChild(categoryHeader);
       menu.appendChild(categoryContainer);
@@ -118,6 +120,7 @@ fetch("drinks.json")
   }
 
 });
+
 
 
 
