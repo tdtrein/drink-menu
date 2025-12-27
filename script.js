@@ -36,6 +36,7 @@ fetch("drinks.json")
 
       const categoryContainer = document.createElement("div");
       categoryContainer.classList.add("category-content");
+      categoryContainer.classList.add("collapsed");
 
 categoryHeader.addEventListener("click", () => {
   categoryContainer.classList.toggle("collapsed");
@@ -120,6 +121,7 @@ categoryHeader.addEventListener("click", () => {
   }
 
 });
+
 
 
 
