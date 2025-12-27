@@ -95,6 +95,11 @@ body {
   display: none;
 }
 
+.category-content.open {
+  display: block;
+}
+
+
 /* Center modal content */
 .modal-content h2,
 .modal-content p,
@@ -106,4 +111,5 @@ body {
   list-style-position: inside;
   padding-left: 0;
 }
+
 
