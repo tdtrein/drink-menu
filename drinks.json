@@ -73,6 +73,12 @@
     "name": "Mojito",
     "ingredients": ["witte rum", "Munt", "limoensap", "rietsuiker", "spuitwater"],
     "image": "Images/mojito.jpg"
+},
+
+    {
+    "name": "Cosmopolitan",
+    "ingredients": ["Vodka", "Triple Sec", "Cranberrysap", "Limoen"],
+    "image": "Images/cosmo.jpg"
 }
   ],
 
@@ -202,11 +208,58 @@
 "Mocktails": [
     {
         "name": "Mojito",
-        "image": "Images/mojito.jpg"
+        "image": "Images/mojito00.jpg"
+    },
+
+     {
+        "name": "Sex On The Beach",
+        "image": "Images/sexonthebeach00.jpg"
+    },
+
+     {
+        "name": "Moscow Mule",
+        "image": "Images/moscowmule00.jpg"
+    },
+
+     {
+        "name": "Planter's Punch",
+        "image": "Images/planterspunch00.jpg"
+    },
+
+      {
+        "name": "Cosmopolitan",
+        "image": "Images/cosmo00.jpg"
     }
+],
+
+"Bubbels": [
+    {
+        "name": "Bellini"
+    },
+
+    {
+        "name": "Champagne"
+    },
+
+     {
+        "name": "Champagne Rose",
+ 
+    }
+ 
+],
+"Wijn": [
+    {
+        "name": "Rose"
+    },
+
+    {
+        "name": "Rood"
+    }
+ 
 ]
  
 }
+
 
 
 
