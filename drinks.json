@@ -65,11 +65,6 @@
     "image": "./Images/aperol-spritz.jpg"
 },
 {
-    "name": "zure mattencocktail",
-    "ingredients": ["roze gin", "roze limonade", "amaretto", "zure matten", "limoensap"],
-    "image": "Images/zuremattencocktail.jpg"
-},
-{
     "name": "Mojito",
     "ingredients": ["witte rum", "Munt", "limoensap", "rietsuiker", "spuitwater"],
     "image": "Images/mojito.jpg"
@@ -189,10 +184,6 @@
         "image": "Images/liefmans00.jpg"
     },
 
-   {
-        "name": "Kasteelbier Rubus 0.0",
-        "image": "Images/kasteel-rubus00.jpg"
-    },
 
   {
         "name": "Bellini 0.0",
@@ -211,10 +202,7 @@
         "image": "Images/mojito00.jpg"
     },
 
-     {
-        "name": "Sex On The Beach",
-        "image": "Images/sexonthebeach00.jpg"
-    },
+
 
      {
         "name": "Moscow Mule",
@@ -224,12 +212,9 @@
      {
         "name": "Planter's Punch",
         "image": "Images/planterspunch00.jpg"
-    },
-
-      {
-        "name": "Cosmopolitan",
-        "image": "Images/cosmo00.jpg"
     }
+
+
 ],
 
 "Bubbels": [
@@ -259,6 +244,7 @@
 ]
 
 }
+
 
 
 
